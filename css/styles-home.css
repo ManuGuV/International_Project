@@ -1,0 +1,58 @@
+/* Fixes dropdown menus placed on the right side */
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+}
+
+.navbar-custom {
+    background-color: #fdffff;
+}
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: black;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: black;
+    font-size: large;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #F5793A;
+}
+
+@media only screen
+and (min-width : 1224px) {
+    .navbar-custom {
+        padding: 1rem 12rem;
+    }
+}
+
+.init{
+    background-image: url('../assets/images/hero-image.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 100%;
+    width: 100%;
+    padding: 18%;
+}
+
+.white-bg span{
+    background-color: rgba(253, 255, 255, 0.64);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.btn-primary{
+    background-color: #F5793A !important;
+    border-color: #F5793A !important;
+}
+
+.btn-primary:hover{
+    background-color: #f5600c !important;
+    border-color: #f5600c !important;
+}
+
