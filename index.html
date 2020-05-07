@@ -30,16 +30,16 @@
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">Gallery</a>
+                  <a class="nav-link" href="#faq">Questions</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">Questions</a>
+                <a class="nav-link" href="#gallery">Gallery</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#contact">Contact</a>
               </li>
           </ul>
       </div>
@@ -60,14 +60,16 @@
   <!-- END Home-->
 
   <!-- About Section -->
-  <section class="page-section">
-      <div class="container">
+  <section class="page-section" id="about">
+      <div class="container" >
           <div class="row">
               <div class="col-lg-5 col-sm-6">
                   <img src="assets/images/guidedog.png" class="about-img" alt="Puppy guide dog">
               </div>
               <div class="col-lg-7 col-sm-6">
-                  <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Why to adopt?</h1>
+                  <a href="https://www.youtube.com/watch?v=acTd9IkjYzo" style="color: black;">
+                    <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; ">Why to adopt?</h1>
+                  </a>
                   <div class="row" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
                       <div class="column-about">
                           <div style="margin-top: 5px;">
@@ -105,13 +107,13 @@
 
   <!-- FAQ section-->
 
-  <section class="page-section bg-light faqs">
+  <section class="page-section bg-light faqs" id="faq">
       <div class="container">
           <div class="row">
               <div class="col-lg-6 order-md-last">
                   <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0 ">
-                      <a href="https://vimeo.com/45830194" class="d-flex justify-content-center align-items-center">
-                          <img src="assets/images/faq-dog2.jpg" class="img-faq" alt="video of dogs care">
+                      <a href="https://www.youtube.com/watch?v=acTd9IkjYzo" class="d-flex justify-content-center align-items-center">
+                          <img src="assets/images/faq-dog2.jpg" class="img-faq" alt="video of service dog">
                       </a>
                   </div>
               </div>
@@ -208,7 +210,7 @@
 
   <!-- Gallery -->
   <section class="page-section">
-      <div class="container">
+      <div class="container" id="gallery">
           <div class="row justify-content-center pb-5 mb-3">
               <div class="col-md-7 heading-section text-center ftco-animate">
                   <h2>Pets Gallery</h2>
@@ -237,8 +239,15 @@
                      <div class="col-lg-4 col-sm-12">
                          <img src="assets/images/gal6.jpg" class="gallery-img" alt="adoption dog 3">
                      </div>
+                     <div class="col-lg-4 col-sm-12" style="margin:5px; margin-left: 25%">
+                        <iframe type="text/html" 
+                            width="540" 
+                            height="285" 
+                            src="http://www.youtube.com/embed/7Zxm2wcgeYI"
+                            frameborder="0">
+                        </iframe>
+                    </div>
                  </div>
-
              </div>
 
 
@@ -249,7 +258,7 @@
   <!-- END Gallery -->
 
   <!-- Contact Section -->
-  <section class="page-section">
+  <section class="page-section" id="contact">
       <div class="row no-gutters">
           <div class="col-lg-6 col-sm-12">
               <img src="assets/images/dogs.jpg" alt="dogs" class="gallery-img">
