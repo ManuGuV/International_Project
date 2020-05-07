@@ -54,7 +54,7 @@
 }
 
 /*FAQ section style*/
-.faq-section {
+.page-section {
     padding: 7em 0;
     position: relative;
 }
@@ -183,4 +183,16 @@ and (min-width : 1224px) {
     .faq-section {
         padding: 6em 0;
     }
+}
+
+.gallery-img{
+    width: 100%;
+}
+
+.about-img{
+    max-height: 450px;
+}
+
+.orange{
+    background-color: #F86D30;
 }
