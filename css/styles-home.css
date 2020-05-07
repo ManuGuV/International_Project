@@ -23,13 +23,7 @@
     color: #F5793A;
 }
 
-@media only screen
-and (min-width : 1224px) {
-    .navbar-custom {
-        padding: 1rem 12rem;
-    }
-}
-
+/*style home background image*/
 .init{
     background-image: url('../assets/images/hero-image.png');
     background-position:center;
@@ -40,12 +34,15 @@ and (min-width : 1224px) {
     padding: 18%;
 }
 
+/*style home title*/
 .white-bg span{
     background-color: rgba(253, 255, 255, 0.64);
     padding-left: 2%;
     padding-right: 2%;
+
 }
 
+/*style home button*/
 .btn-primary{
     background-color: #F5793A !important;
     border-color: #F5793A !important;
@@ -56,3 +53,134 @@ and (min-width : 1224px) {
     border-color: #f5600c !important;
 }
 
+/*FAQ section style*/
+.faq-section {
+    padding: 7em 0;
+    position: relative;
+}
+
+
+
+.faqs .img {
+    height: 450px;
+    -webkit-box-shadow: 0px 8px 21px -10px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0px 8px 21px -10px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 8px 21px -10px rgba(0, 0, 0, 0.12);
+}
+
+.faqs .img.img-2 {
+    height: 250px; }
+
+.faqs .myaccordion {
+    margin: 0 auto;
+    overflow: hidden; }
+
+.faqs .myaccordion .card,
+.faqs .myaccordion .card:last-child .card-header {
+    border: none;
+    background: transparent; }
+
+.faqs .myaccordion .card-header {
+    border: none;
+    background: transparent;
+}
+
+.faqs .myaccordion .card-header p {
+    position: relative;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+.faqs .myaccordion .fa {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.faqs .myaccordion .btn {
+    width: 100%;
+    font-weight: 600;
+    color: black;
+    padding: 0;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    border-radius: 0 !important;
+    margin-bottom: 10px;
+    border-radius: 40px !important;
+    -webkit-box-shadow: 0px 2px 8px -4px rgba(0, 0, 0, 0.21) !important;
+    -moz-box-shadow: 0px 2px 8px -4px rgba(0, 0, 0, 0.21) !important;
+    box-shadow: 0px 2px 8px -4px rgba(0, 0, 0, 0.21) !important;
+}
+
+.faqs .myaccordion .btn-link:hover,
+.faqs .myaccordion .btn-link:focus {
+    text-decoration: none;
+    background-color: #F5793A;
+    color: white;
+}
+
+.faqs [data-toggle="collapse"] .fa:before {
+    content: "\f068";
+    font-family: "FontAwesome";
+    font-style: normal;
+}
+
+.faqs [data-toggle="collapse"].collapsed .fa:before {
+    content: "\f067";
+    font-family: "FontAwesome";
+    font-style: normal;
+}
+
+.faqs button[aria-expanded="true"] {
+    background-color: #F5793A;
+    color: #fff !important;
+}
+
+.faqs button[aria-expanded="true"] .fa {
+    color: #fff !important;
+}
+
+.faqs button[aria-expanded="false"] {
+    background-color: #fff;
+}
+
+.faqs .card-body {
+    background: #fff;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 2px 8px -4px rgba(0, 0, 0, 0.21) !important;
+    -moz-box-shadow: 0px 2px 8px -4px rgba(0, 0, 0, 0.21) !important;
+    box-shadow: 0px 2px 8px -4px rgba(0, 0, 0, 0.21) !important;
+}
+
+.faqs .card-body ol li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.faqs .card-body ol li:last-child {
+    margin-bottom: 0;
+}
+
+.faqs .card-body p{
+    margin: 5%;
+}
+
+.img-faq{
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media only screen
+and (min-width : 1224px) {
+    .navbar-custom {
+        padding: 1rem 12rem;
+    }
+}
+@media (max-width: 767.98px) {
+    .faq-section {
+        padding: 6em 0;
+    }
+}
